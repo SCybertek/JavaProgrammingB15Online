@@ -8,11 +8,27 @@ public class Repl107 {
 
         int num, digit1, digit2, digit3, digit4, digit5;
         num = scan.nextInt();
-//        digit1 = scan.nextInt();
-//        digit2 = scan.nextInt();
-//        digit3 = scan.nextInt();
-//        digit4 = scan.nextInt();
-//        digit5 = scan.nextInt();
+
+
+        //repl code:
+        digit1 = num / 10000 ;
+        digit2 = num % 10000 / 1000 ;
+        digit3 = num % 10000 % 1000 / 100 ;
+        digit4 = num % 10000 % 1000 % 100 / 10 ;
+        digit5 = num % 10000 % 1000 % 100 % 10 ;
+
+        System.out.println(digit1);
+        System.out.println(digit2);
+        System.out.println(digit3);
+        System.out.println(digit4);
+        System.out.println(digit5);
+
+        //PERFCET SOLUTION :
+
+        String num1= num+"";
+        for (int i=0;i<num1.length();i++) {
+            System.out.println(num1.charAt(i));
+        }
 
         //use / and % operators
 

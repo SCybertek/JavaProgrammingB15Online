@@ -18,8 +18,12 @@ public class Repl129 {
 
         //TODO : YOUR CODE GOES HERE ----------------------
         //loop through numbers to check if there is an E
+        //1 step see how many contains E
+        // 2nd loop and transfer them into a new array :
 
-        Scanner scan = new Scanner(System.in);
+
+
+        //declaring an array with this number of elements
         String[] numbers = new String[0];
         System.out.println(Arrays.toString(numbers));
     }}

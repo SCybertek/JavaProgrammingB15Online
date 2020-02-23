@@ -15,7 +15,7 @@ public class Repl155 {
 
     public static void next3 (int num) {
 
-        for (int i = 0 ; i >= 3 ; i++) {
+        for (int i = 0 ; i <= 3 ; i++) {
             num = num +1 ;
             System.out.print(num+" ");
         }

@@ -10,8 +10,7 @@ public class Repl111 {
         //
 
         do {
-            k = k*k;
-            total = total + k ;
+            total = total + k*k ;
             k++;
         } while ( k <=3);
 
