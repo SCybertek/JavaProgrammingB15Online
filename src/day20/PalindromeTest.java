@@ -1,7 +1,5 @@
 package day20;
 
-import day6.UsingTheValueOfOtherVariables;
-
 public class PalindromeTest {
 
     public static void main(String[] args) {

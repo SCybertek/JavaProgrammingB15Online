@@ -14,11 +14,9 @@ public class Repl172 {
 
         int a = 0 ;
 
-        for (int i = 0; i < matrix.length ; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                if ( i == j) {
-                    a = a + matrix[i][j];
-                }
+        for (int i = 0; i < 3; i++) { //row
+            for (int j = 0; j < 3; j++) { //column
+               // matrix[i][j]
             }
         }
        // System.out.println();

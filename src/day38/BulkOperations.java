@@ -1,7 +1,5 @@
 package day38;
 
-import day6.UsingTheValueOfOtherVariables;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

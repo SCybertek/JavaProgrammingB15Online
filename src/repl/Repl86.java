@@ -1,7 +1,5 @@
 package repl;
 
-import day6.ScannerCapturingMultipleWord;
-
 import java.util.Scanner;
 
 public class Repl86 {
