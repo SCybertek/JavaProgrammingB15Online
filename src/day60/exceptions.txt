@@ -1,0 +1,48 @@
+----------------   throw VS thorws --------------
+throws keyword is used to document a method might throw that type of exception
+public static void playWithFire throws GetBurnedException{
+    // some code here
+}
+this is the only place you will see throws keywrod
+in (any) method declareation and is not used anywhere else.
+we will not use new keyword after throws
+Since throws are used to document it might throw an exception
+can i documemnt more than one type?
+// assuming these exceptions actually exists
+public void skyDiving() throws DiveTooDeepException, TooScareException,
+                                ParachuteNotWorkingException {
+                                }
+
+          // you do not NEED to actually throw the exception
+          //method only shows that exception MIGHT happen
+throw keyword
+Its used to actually programaitically throw the exception to the runtime system
+just like actually breaking the glass rather than telling it might break
+for example :  throw new AnyTypeOfException( optional message here) .
+    What can you throw ?????
+
+
+    HOW to create custom Exception ?
+
+    how to create your own unchecked exception type:
+    BreakTimeException
+    BrainOutOfMemoryException
+
+    What is unchecked exception -- anything IS - A Runtime Exception
+
+    so, ALL you need is to create a subclass of RUntimeException with my own name!
+
+    public class BreakTimeException extends RuntimeException (or any subclass of it ){
+
+    }
+
+    how to create your own checked exception type:
+
+    so, ALL you need is to create a subclass of any checked Exception with my own name!
+
+        public class HittingHeadToWall extends Exception ( or any subclass of it , like : IOException {
+
+        }
+
+
+
